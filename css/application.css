@@ -239,87 +239,59 @@ section#about {
   background: #60d5ee;
   color: #fff; }
 
-section#shares {
+section#blue {
   background: #2C3E50;
   color: #fff; }
-  section#shares a {
+  section#blue a {
     color: #fff; }
-  section#shares p:last-child {
+  section#blue p:last-child {
     text-align: center;
     margin: 2em auto 0; }
   @media all and (max-width: 660px) {
-    section#shares {
+    section#blue {
       text-align: center; } }
 
-section#whiskey {
-  background: #2d2725;
-  color: #fee9c1; }
-  section#whiskey a {
-    color: #fee9c1; }
-  section#whiskey input {
-    background: #f6e8e3;
-    border-color: #f6e8e3;
-    color: #333; }
-    section#whiskey input:focus {
-      border-color: #ecc171; }
-  section#whiskey button {
-    background: #e88237; }
-
-section#roon {
+section#white {
   background: #fff;
   color: #d3d3d3; }
-  section#roon em {
+  section#white em {
     background-color: #fdffb6;
     padding: 2px;
     box-shadow: #fdffb6 0 0 5px;
     color: #fff; }
-  section#roon a.title {
+  section#white a.title {
     display: block;
     width: 269px;
     height: 44px;
     margin: 0 auto 1em; }
-    section#roon a.title:hover {
+    section#white a.title:hover {
       border-bottom-color: transparent; }
-    section#roon a.title img {
+    section#white a.title img {
       width: 269px;
       height: 44px; }
-  section#roon a.app-icon {
+  section#white a.app-icon {
     box-shadow: 0 0 4px rgba(144, 147, 150, 0.8);
     border-radius: 43px;
     overflow: hidden; }
-  section#roon p:last-child {
+  section#white p:last-child {
     text-align: center;
     margin: 2em auto 0; }
-      
-  section#roon a {
+  section#white a {
     color: #d3d3d3; }
 
-
-section#coins {
-  background: #2C3E50;
-  color: #fff; }
-  section#coins a {
-    color: #fff; }
-  section#coins p:last-child {
-    text-align: center;
-    margin: 2em auto 0; }
-  @media all and (max-width: 660px) {
-    section#coins {
-      text-align: center; } }
-
-section#team {
+section#me {
   background: #d3d3d3;
   color: #4c4e53; }
-  section#team a {
+  section#me a {
     color: #fff; }
-  section#team a.headshot {
+  section#me a.headshot {
     display: block;
     text-align: center;
     width: 190px;
     margin: 0 auto; }
-    section#team a.headshot:hover {
+    section#me a.headshot:hover {
       border-bottom: 1px transparent solid; }
-    section#team a.headshot img {
+    section#me a.headshot img {
       width: 190px;
       height: 190px;
       display: block;
@@ -327,11 +299,7 @@ section#team {
       background-size: 190px 190px;
       margin: 0 auto 1em; }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-        section#team a.headshot img {
+        section#me a.headshot img {
           background-image: asset-url("soffes@2x.png"); } }
-    section#team a.headshot span.name {
+    section#me a.headshot span.name {
       display: block; }
-
-form.curious {
-  text-align: center;
-  padding-top: 30px; }
