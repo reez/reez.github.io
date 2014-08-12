@@ -290,6 +290,10 @@ section#roon {
   section#roon p:last-child {
     text-align: center;
     margin: 2em auto 0; }
+      
+  section#roon a {
+    color: #fff; }
+
 
 section#coins {
   background: #2C3E50;
