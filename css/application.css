@@ -266,8 +266,8 @@ section#whiskey {
     background: #e88237; }
 
 section#roon {
-  background: #36D7B7;
-  color: #fff; }
+  background: #fff;
+  color: #d3d3d3; }
   section#roon em {
     background-color: #fdffb6;
     padding: 2px;
@@ -292,7 +292,7 @@ section#roon {
     margin: 2em auto 0; }
       
   section#roon a {
-    color: #fff; }
+    color: #d3d3d3; }
 
 
 section#coins {
