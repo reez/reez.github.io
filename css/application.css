@@ -280,9 +280,9 @@ section#white {
 
 section#me {
   background: #d3d3d3;
-  color: #4c4e53; }
+  color: #fff; }
   section#me a {
-    color: #fff; }
+    color: #4c4e53; }
   section#me a.headshot {
     display: block;
     text-align: center;
