@@ -94,7 +94,7 @@ header {
 body, input, button {
   color: #444;
   //font-family: 'Whitney A', 'Whitney B';
-  font-family: 'PT+Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 22px; }
@@ -149,7 +149,7 @@ input {
   outline: 0;
   border: 2px solid #f7f7f7;
   //font-family: 'Whitney A', 'Whitney B';
-  font-family: 'PT+Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #333;
@@ -163,7 +163,7 @@ button {
   background: #59d56e;
   padding: 10px 15px;
   //font-family: 'Whitney A', 'Whitney B';
-  font-family: 'PT+Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 600;
   font-size: 18px;
   border: 0;
