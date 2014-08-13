@@ -250,7 +250,9 @@ section#blue {
 
 section#white {
   background: #fff;
-  color: #d3d3d3; }
+  color: #4c4e53;
+  //color: #d3d3d3;
+  }
   section#white em {
     background-color: #fdffb6;
     padding: 2px;
