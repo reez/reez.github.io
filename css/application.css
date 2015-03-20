@@ -280,7 +280,7 @@ section#white {
     
 section#other {
   background: #d3d3d3;
-  color: #4c4e53;
+  color: #fff;
  
   }
   section#other em {
@@ -306,7 +306,7 @@ section#other {
     text-align: center;
     margin: 2em auto 0; }
   section#other a {
-    color: #4c4e53; }
+    color: #fff; }
 
 section#me {
   background: #d3d3d3;
