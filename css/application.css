@@ -277,6 +277,36 @@ section#white {
     margin: 2em auto 0; }
   section#white a {
     color: #4c4e53; }
+    
+section#other {
+  background: #d3d3d3;
+  color: #4c4e53;
+ 
+  }
+  section#other em {
+    background-color: #fdffb6;
+    padding: 2px;
+    box-shadow: #fdffb6 0 0 5px;
+    color: #fff; }
+  section#other a.title {
+    display: block;
+    width: 269px;
+    height: 44px;
+    margin: 0 auto 1em; }
+    section#other a.title:hover {
+      border-bottom-color: transparent; }
+    section#other a.title img {
+      width: 269px;
+      height: 44px; }
+  section#other a.app-icon {
+    box-shadow: 0 0 4px rgba(144, 147, 150, 0.8);
+    border-radius: 43px;
+    overflow: hidden; }
+  section#other p:last-child {
+    text-align: center;
+    margin: 2em auto 0; }
+  section#other a {
+    color: #4c4e53; }
 
 section#me {
   background: #d3d3d3;
