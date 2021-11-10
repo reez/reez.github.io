@@ -1,4 +1,8 @@
 reez.github.io
 ==============
 
-Inspired by Sam Soffes' Nothing Magical page.  Shout out to him.
+## Matthew Ramsden
+
+Matthew designs and develops iOS apps.
+
+*Page design inspired by Sam Soffes' Nothing Magical page.*
