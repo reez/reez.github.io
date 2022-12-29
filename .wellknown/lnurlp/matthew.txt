@@ -2,8 +2,8 @@
   "status":"OK",
   "tag":"payRequest",
   "commentAllowed":255,
-  "callback":"https://getalby.com/lnurlp/matthewramsden/callback",
-  "metadata":"[[\"text/identifier\", \"matthewramsdenK@getalby.com\"], [\"text/plain\", \"Sats for Matthew\"]]",
+  "callback":"https://matthewramsden.com/lnurlp/matthew/callback",
+  "metadata":"[[\"text/identifier\", \"matthew@matthewramsden.com\"], [\"text/plain\", \"Sats for Matthew\"]]",
   "minSendable":1000,"maxSendable":11000000000,
   "payerData":
     {
