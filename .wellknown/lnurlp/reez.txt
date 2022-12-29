@@ -1,1 +1,0 @@
-{"status":"OK","tag":"payRequest","commentAllowed":255,"callback":"https://matthewramsden.com/lnurlp/reez/callback","metadata":"[[\"text/identifier\", \"reez@matthewramsden.com\"], [\"text/plain\", \"Sats for Reez\"]]","minSendable":1000,"maxSendable":11000000000,"payerData":{"name":{"mandatory":false},"email":{"mandatory":false}}}
