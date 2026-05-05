@@ -3,7 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Matthew Ramsden</title>
+  <meta name="description" content="Matthew Ramsden's public homepage, projects, writing, apps, videos, PGP key, and agent-readable site overview.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM site overview">
+  <link rel="describedby" type="text/plain" href="/llms.txt">
+  <link rel="describedby" type="application/json" href="/.well-known/agent-skills/index.json">
   <style>
     body {
       max-width: 600px;
@@ -12,6 +17,43 @@
       font: 18px/1.6 system-ui;
     }
   </style>
+  <script>
+    (() => {
+      const modelContext = navigator.modelContext;
+      if (!modelContext || typeof modelContext.registerTool !== "function") {
+        return;
+      }
+
+      modelContext.registerTool({
+        name: "get_matthew_ramsden_site_overview",
+        title: "Get Matthew Ramsden Site Overview",
+        description: "Returns a concise overview of matthewramsden.com and its key public links.",
+        inputSchema: {
+          type: "object",
+          properties: {},
+          additionalProperties: false
+        },
+        annotations: {
+          readOnlyHint: true
+        },
+        async execute() {
+          return {
+            content: [
+              {
+                type: "text",
+                text: [
+                  "Matthew Ramsden's homepage lists public work, apps, projects, writing, videos, Nostr, X, and PGP links.",
+                  "Agent overview: https://www.matthewramsden.com/llms.txt",
+                  "Expanded agent content: https://www.matthewramsden.com/llms-full.txt",
+                  "Writing: https://www.matthewramsden.com/posts/2024/10-14.html"
+                ].join("\n")
+              }
+            ]
+          };
+        }
+      });
+    })();
+  </script>
 </head>
 <body>
   <h1>Matthew Ramsden</h1>

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "site-overview",
+      "type": "skill-md",
+      "description": "Understand Matthew Ramsden's public homepage, work, apps, projects, writing, videos, and contact links.",
+      "url": "/.well-known/agent-skills/site-overview/SKILL.md",
+      "digest": "sha256:b3823d3b2fc110b35881f70b4943a78f334468ea319f8f0efa873f1976301f9f"
+    }
+  ]
+}

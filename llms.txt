@@ -1,0 +1,18 @@
+# Matthew Ramsden
+
+Matthew Ramsden's public homepage collects his work, apps, projects, writing, videos, Nostr profile, X profile, and PGP key.
+
+## Primary Pages
+
+- [Homepage](https://www.matthewramsden.com/): Public links for work, apps, projects, writing, and videos.
+- [Expanded agent overview](https://www.matthewramsden.com/llms-full.txt): Full plain-text summary of site content for LLM ingestion.
+- [PGP key](https://www.matthewramsden.com/pgp.txt): Public PGP key.
+
+## Writing
+
+- [Introducing BDK Swift Example Wallet](https://www.matthewramsden.com/posts/2024/10-14.html): Design decisions for an iOS example wallet built with Bitcoin Dev Kit 1.0 and bdk-ffi Swift bindings.
+
+## External Profiles
+
+- [X](https://x.com/matthewramsden)
+- [Nostr](https://primal.net/p/npub1reezn2ctrrg736uqj7mva9lsuwv0kr5asj4vvkwxnrwlhvxf98tsq99ty4)

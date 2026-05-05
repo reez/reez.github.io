@@ -1,0 +1,79 @@
+# Matthew Ramsden
+
+This is the expanded LLM-readable overview for https://www.matthewramsden.com/.
+
+## Site Purpose
+
+Matthew Ramsden's homepage is a compact personal site. It points visitors and agents to public work, apps, projects, writing, videos, social profiles, and a PGP key.
+
+## Public Profiles
+
+- X: https://x.com/matthewramsden
+- Nostr: https://primal.net/p/npub1reezn2ctrrg736uqj7mva9lsuwv0kr5asj4vvkwxnrwlhvxf98tsq99ty4
+- PGP key: https://www.matthewramsden.com/pgp.txt
+
+## Work
+
+- Bitcoin Dev Kit: https://bitcoindevkit.org/foundation/grantees/#matthew-ramsden
+- NashBitDevs: https://nashbitdevs.org
+- Spiral: https://spiral.xyz
+
+## Apps
+
+- Block Screen: https://apps.apple.com/app/id1533333210
+- Traxe: https://apps.apple.com/us/app/traxe/id6744660207
+- Endless Basketball: https://apps.apple.com/us/app/id6748888531
+
+## Projects
+
+- bdk-ffi: https://github.com/bitcoindevkit/bitcoin-ffi
+- BDK Swift Example Wallet: https://github.com/bitcoindevkit/BDKSwiftExampleWallet
+- SatsBuddy: https://github.com/reez/SatsBuddy
+- Monday: https://github.com/reez/Monday
+- Bitcoin UI: https://bitcoinui.ai
+- nackamoto.com: https://nackamoto.com
+- ackamoto.com: https://ackamoto.com
+
+## Writing
+
+### Introducing BDK Swift Example Wallet
+
+URL: https://www.matthewramsden.com/posts/2024/10-14.html
+
+Published: October 14, 2024
+
+The post introduces BDK Swift Example Wallet, an iOS example app built around Bitcoin Dev Kit 1.0 and the Swift bindings from bdk-ffi. It explains design and implementation choices for a native iOS bitcoin wallet experience.
+
+Key topics:
+
+- Audience: bitcoiners testing Signet, Testnet, or Mutinynet wallets; developers exploring BDK 1.0; developers who want a starting point for their own bitcoin app.
+- Native iOS design: built-in platform controls, light and dark mode, Dynamic Type, gestures, animations, and native interaction patterns.
+- Onboarding: one-screen onboarding with create-or-import actions, a default network, and minimal setup friction.
+- Wallet balance display: a custom bitcoin and sats formatting approach designed for readability.
+- Send and receive actions: icon-focused mobile affordances for showing QR codes and scanning QR codes.
+- Sync: visual treatment inspired by BDK 1.0 sync capabilities and inspected script pubkeys.
+- Address display: bitcoin address formatting informed by the Bitcoin Design Guide.
+- Seed display: visual treatment informed by the Bitcoin Design daily spending wallet guidance.
+- Download: links to the GitHub repository and TestFlight build.
+
+Related links from the post:
+
+- Bitcoin Dev Kit: https://bitcoindevkit.org
+- bdk-ffi: https://github.com/bitcoindevkit/bdk-ffi
+- BDK Swift Example Wallet: https://github.com/bitcoindevkit/BDKSwiftExampleWallet
+- Bitcoin Design Guide: https://bitcoin.design/guide/
+- TestFlight: https://testflight.apple.com/join/mz0UxYhT
+
+## Videos
+
+- BDK on mobile: https://youtu.be/J2wLCv_fx5Y?si=kSFsnG7OXFXXnh_W
+- Build a bitcoin wallet on iOS with BDK: https://youtu.be/M9AYugUF5uQ
+- Make your first Lightning app on iOS with LDK Node: https://www.youtube.com/watch?v=rcU3LU6iZCs
+- LSP just-in-time channel integration on iOS with LDK Node: https://www.youtube.com/watch?v=-OBKmaxH-yI
+
+## Agent Discovery
+
+- robots.txt: https://www.matthewramsden.com/robots.txt
+- sitemap.xml: https://www.matthewramsden.com/sitemap.xml
+- llms.txt: https://www.matthewramsden.com/llms.txt
+- Agent Skills index: https://www.matthewramsden.com/.well-known/agent-skills/index.json
